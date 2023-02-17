@@ -17,7 +17,7 @@ While we each have specific angles of interest when looking at the project, ther
 ## Team Members
 
 - Alvin Nganga: I am a bodacious bro who loves music and efficient teamwork!
-- Person 2: one sentence about you!
+- Tobi Ogunbote: Hi! I love to cook and work with amazing people. 
 - Person 3: one sentence about you!
 
 ## Images
