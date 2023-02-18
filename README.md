@@ -12,13 +12,24 @@ While we each have specific angles of interest when looking at the project, ther
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
-
+The dataset used in our project is sourced from Kaggle and observes several features on 13,024
+unique songs. The purpose of the data collection was to build regression models that can be
+used to predict the song popularity. The dataset assesses different music based on song name,
+popularity, duration, acoustics, danceability, energy, instrumentals, key, liveness, and loudness.
+The sample songs used are part of a large range of music across different genres and historical
+time frames which will allow us to understand the popularity of music in different contexts.
+While the date of collection is not listed explicitly, the data was last updated about a year ago.
+The dataset can also be narrowed down by looking at the youngest song in the catalogue during
+our exploratory data analysis. While we speculate that this dataset will help us further our
+understanding of what makes music popular, there are several limiting factors that are
+important to acknowledge. Firstly, the dataset is relatively large which might make it harder to
+conduct our analysis. Additionally, the factors being observed about the songs have shown
+strong multicollinearity, which increases the complexity of the dataset.
 ## Team Members
 
 - Alvin Nganga: I am a bodacious bro who loves music and efficient teamwork!
 - Tobi Ogunbote: Hi! I love to cook and work with amazing people. 
-- Person 3: one sentence about you!
+- Annabelle Ngarambe: I am interested in popular culture, and I am excited to create cool visualizations. 
 
 ## Images
 
