@@ -17,7 +17,7 @@ The dataset used in our project is sourced from Kaggle and observes several feat
 ## Team Members
 
 - Alvin Nganga: I am a bodacious bro who loves music and efficient teamwork!
-- Person 2: I am !
+- Tobi Ogunbote: Hi! I love to cook and work with amazing people. 
 - Person 3: one sentence about you!
 
 ## Images
