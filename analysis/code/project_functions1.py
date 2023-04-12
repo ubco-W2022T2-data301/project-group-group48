@@ -24,11 +24,12 @@ def load_and_process(data_file):
 
     # Drop duplicates and add genre column
     combo_2 = (
-            combo
+        combo
             .drop_duplicates()
-            .assign(genre=['rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'pop', 'pop', 'pop', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'pop', 'pop', 'metal', 'hip hop', 'pop', 'pop', 'post-punk', 'hip hop', 'grunge', 'hard rock', 'pop', 'rock', 'rock', 'rock', 'pop punk', 'hip hop', 'pop', 'hard rock', 'hip hop', 'hard rock', 'new wave', 'pop', 'pop', 'pop rock', 'soft rock'])
-            .reindex(columns=['song_name', 'genre', 'song_popularity', 'song_duration_ms', 'acousticness', 'danceability', 'energy', 'key', 'loudness', 'speechiness', 'tempo', 'audio_valence', 'loudness_energy', 'energy_duration'])
-    )
+            .assign(genre = ['rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'pop', 'pop', 'pop', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'pop', 'pop', 'metal', 'hip hop', 'pop', 'pop', 'post-punk', 'hip hop', 'grunge', 'hard rock', 'pop', 'rock', 'rock', 'rock', 'pop punk'] )
+            .reindex(columns=['song_name', 'genre', 'song_popularity', 'song_duration_ms', 'acousticness', 'danceability', 'energy', 'key', 'loudness', 'speechiness', 'tempo', 'audio_valence', 'loudness_energy', 'energy_duration']
+                    )
+    ) 
            
 
     return combo_2
