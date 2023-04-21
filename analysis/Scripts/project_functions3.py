@@ -3,7 +3,7 @@ import pandas as pd
 
 def clean_and_concat(songdata):
     songdata_cleaned = (
-    pd.read_csv("../../data/raw/song_data.csv.zip")
+    pd.read_csv(songdata)
     .loc[1000:1510]
     .drop(['audio_mode', 'time_signature'], axis=1)
     .dropna(axis=0)
