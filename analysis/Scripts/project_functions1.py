@@ -3,7 +3,7 @@ import pandas as pd
 
 def load_and_process(data_file):
     # Load data into dataframe
-    singsong = pd.read_csv(data_faile)
+    singsong = pd.read_csv(data_file)
 
     # drop irrelevant columns
     singsong_cleaned = (
